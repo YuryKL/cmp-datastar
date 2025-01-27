@@ -1,0 +1,1 @@
+require('cmp').register_source('cmp-datastar', require('cmp_datastar'))
