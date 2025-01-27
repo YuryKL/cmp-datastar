@@ -1,6 +1,6 @@
 # cmp-datastar
 
-Neovim completion source for [Data*](https://data-star.dev/) HTML attributes.
+Neovim completion source for [Datastar](https://data-star.dev/) data-* attributes.
 
 ## Features
 
