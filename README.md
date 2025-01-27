@@ -5,7 +5,7 @@ Neovim completion source for [Data*](https://data-star.dev/) HTML attributes.
 ## Features
 
 - Provides completions for all Data* attributes
-- Smart context-aware completions for `data-on` events
+- Context-aware completions for `data-on` events
 - Snippet support for attribute values
 - Only triggers within HTML tag attributes
 
@@ -26,8 +26,8 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
     }
 }
 ```
-**Warning**
-Untested
+**Warning - Untested**
+
 Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 
 ```lua
