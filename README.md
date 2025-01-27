@@ -26,7 +26,8 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
     }
 }
 ```
-
+**Warning**
+Untested
 Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 
 ```lua
@@ -52,13 +53,8 @@ require('cmp').setup({
 })
 ```
 
-## Usage
-
-In an HTML file, start typing a Data* attribute:
-
-- `data-` - Shows all available attributes
-- `data-on-` - Shows available events (click, keydown, etc.)
-- `data-on-click` - Completes with snippet for expression
+## Contributing
+Pull Requests welcome.
 
 ## License
 
