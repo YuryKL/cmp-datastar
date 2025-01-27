@@ -56,6 +56,22 @@ require('cmp').setup({
 ## Contributing
 Pull Requests welcome.
 
+## Customizing Icons
+
+By default, the completion items show a 🚀 icon. You can customize this by configuring nvim-cmp's formatting:
+
+```lua
+require('cmp').setup({
+  formatting = {
+    format = function(entry, vim_item)
+      -- You can use a different icon or text
+      vim_item.kind = "DS" -- or any other icon/text you prefer
+      return vim_item
+    end,
+  },
+})
+```
+
 ## License
 
 MIT

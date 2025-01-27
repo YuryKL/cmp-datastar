@@ -138,6 +138,11 @@ function source:complete(params, callback)
   callback(items)
 end
 
+---@return string
+function source:get_kind_text()
+  return "🚀" 
+end
+
 ---@param completion_item lsp.CompletionItem
 ---@param callback fun(completion_item: lsp.CompletionItem|nil)
 function source:resolve(completion_item, callback)
