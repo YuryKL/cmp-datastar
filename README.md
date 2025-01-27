@@ -62,8 +62,8 @@ use {
 
 ## Usage
 
-In an HTML file, start typing a Data* attribute:
-- `data-` - Shows all available Data* attributes
+In an HTML file, start typing a Datastar attribute:
+- `data-` - Shows all available Datastar attributes
 - `data-on-` - Shows available events (click, keydown, etc.)
 - `data-on-click` - Completes with snippet for expression
 
