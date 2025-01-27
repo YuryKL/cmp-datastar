@@ -95,6 +95,7 @@ function source:complete(params, callback)
               value = tostring(item.documentation)
             },
             kind = types.lsp.CompletionItemKind.Property,
+            kind_text = "🚀",
             detail = tostring(item.detail),
             insertTextFormat = types.lsp.InsertTextFormat.Snippet
           })
@@ -111,6 +112,7 @@ function source:complete(params, callback)
               value = tostring(item.documentation)
             },
             kind = types.lsp.CompletionItemKind.Property,
+            kind_text = "🚀",
             detail = tostring(item.detail),
             insertTextFormat = types.lsp.InsertTextFormat.Snippet
           })
@@ -127,6 +129,7 @@ function source:complete(params, callback)
           value = tostring(item.documentation)
         },
         kind = types.lsp.CompletionItemKind.Property,
+        kind_text = "🚀",
         detail = tostring(item.detail),
         insertTextFormat = types.lsp.InsertTextFormat.Snippet
       })
