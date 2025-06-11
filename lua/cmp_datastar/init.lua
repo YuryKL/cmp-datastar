@@ -2,9 +2,19 @@ local source = {}
 local types = require('cmp.types')
 local cmp = require('cmp')
 
+-- Defualt Configuration
+local config = {
+  filetypes = { 'html' }, -- Default filetypes to enable this source
+}
+
+-- @param user_config User-provided configuration table
+function source.setup(user_config)
+  config = vim.tbl_deep_extend('force', config, user_config or {})
+end
+
 ---@return boolean
 function source:is_available()
-  return vim.bo.filetype == 'html'
+  return vim.tbl_contains(config.filetypes, vim.bo.filetype)
 end
 
 ---@return string

@@ -21,6 +21,10 @@ Neovim completion source for [Datastar](https://data-star.dev/) data-* attribute
         "YuryKL/cmp-datastar"
     },
     config = function()
+        -- Optional: Add other filetypes, must be done before cmp is setup
+        require('cmp_datastar').setup({
+            filetypes = { "html", "templ" },
+        })
         local cmp = require('cmp')
         cmp.setup({
             -- Required: Add cmp-datastar as a source
