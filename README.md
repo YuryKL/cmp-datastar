@@ -2,6 +2,8 @@
 
 Neovim completion source for [Datastar](https://data-star.dev/) data-* attributes.
 
+Should the snippets in data.lua become out-of-date, they can be regenerated with [cmp-datastar-gen](https://github.com/YuryKL/cmp-datastar-gen).
+
 ## Features
 
 - Provides completions for all Data* attributes
